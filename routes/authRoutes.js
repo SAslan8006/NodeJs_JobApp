@@ -1,9 +1,6 @@
-import express from "express";
-import {
-  loginController,
-  registerController,
-} from "../controllers/authController.js";
-import rateLimit from "express-rate-limit";
+import express from 'express';
+import { loginController, registerController } from '../controllers/authController.js';
+import rateLimit from 'express-rate-limit';
 
 //ip limiter
 const limiter = rateLimit({
@@ -19,10 +16,10 @@ const router = express.Router();
 //routes
 
 // REGISTER || POPST
-router.post("/register", limiter, registerController);
+router.post('/register', limiter, registerController);
 
 // LOGIN || POST
-router.post("/login", limiter, loginController);
+router.post('/login', limiter, loginController);
 
 //export
 export default router;
