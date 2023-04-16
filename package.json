@@ -20,6 +20,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
+    "concurrently": "^8.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
@@ -32,9 +33,11 @@
     "mongoose": "^7.0.2",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.21",
+    "swagger-doc": "^0.3.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2",
     "validator": "^13.9.0",
-    "xss-clean": "^0.1.1",
-    "concurrently": "^8.0.1"
+    "xss-clean": "^0.1.1"
   },
   "bugs": {
     "url": "https://github.com/SAslan8006/NodeJs_JobApp/issues"
